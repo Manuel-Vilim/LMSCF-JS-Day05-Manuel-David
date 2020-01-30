@@ -1,0 +1,2 @@
+data = `[{"name" : "George", "position" : "Developer", "read" : "true"},{"name" : "Alexandar", 
+"position" :"Project Manager", "read" :"false"}]`;

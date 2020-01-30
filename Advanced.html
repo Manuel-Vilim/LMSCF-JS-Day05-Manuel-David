@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Advanced</title>
+</head>
+<body>
+
+	<h1>test</h1>
+
+	   <script type="text/javascript"  src="advanced.json"></script>
+	   <script>
+	   	console.log("ok");
+	   	var bla = JSON.parse(data);
+	   	console.log(bla);
+	   	for(i=0; i<bla.length; i++){
+	   		document.writeln("<ul>");
+	   		document.writeln("<li><p>" + bla[i].name + "</p></li>");
+	   		document.writeln("<li><p>" + bla[i].position + "</p></li>");
+	   		document.writeln("</ul>");
+
+	   	if (bla[i].read = true){
+	   		bla[i].read = 'true'
+	   	}
+		else(bla[i].read = false) 	
+	   		bla[i].read = 'false'
+	   
+
+	   	document.write(bla[i].read)
+	   		}
+	   	
+
+
+	   </script>
+
+
+
+</body>
+</html>
